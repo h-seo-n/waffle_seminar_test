@@ -83,12 +83,12 @@ export const questions = [
   },
   {
     id: 9,
-    question: "어떤 설명을 들었을 때 가장 궁금해지는가?",
+    question: "이런 이야기를 들었을 때, 가장 더 알아보고 싶은 것은?",
     answers: [
-      { label: "A", text: "“웹에서는 화면 상태가 바뀔 때 UI가 자동으로 다시 렌더링돼.”", scores: { react: 3 } },
-      { label: "B", text: "“하나의 요청이 서버에 도착해서 DB까지 갔다가 응답으로 돌아와.”", scores: { fastapi: 2, spring: 2 } },
-      { label: "C", text: "“모바일 앱은 OS와 상호작용하면서 웹과는 또 다른 사용자 경험을 만들 수 있어.”", scores: { ios: 2, android: 2 } },
-      { label: "D", text: "“AI 에이전트에게 구현을 맡기더라도 시스템 전체 구조를 이해해야 좋은 제품을 만들 수 있어.”", scores: { pe: 3 } },
+      { label: "A", text: "“버튼 하나를 눌렀는데 화면이 바로바로 달라지는 건 어떻게 만드는 걸까?”", scores: { react: 3 } },
+      { label: "B", text: "“로그인하거나 글을 올리면, 그 정보는 어디로 가서 어떻게 저장되는 걸까?”", scores: { fastapi: 2, spring: 2 } },
+      { label: "C", text: "“알림이나 카메라처럼 스마트폰만의 기능은 앱에서 어떻게 활용할까?”", scores: { ios: 2, android: 2 } },
+      { label: "D", text: "“아이디어 하나를 실제로 사람들이 쓸 수 있는 서비스로 만들려면 무엇이 필요할까?”", scores: { pe: 3 } },
     ],
   },
   {
